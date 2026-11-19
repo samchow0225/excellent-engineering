@@ -1,210 +1,189 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-Hant-HK">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>卓越機電工程有限公司</title>
+<title>卓越機電工程有限公司 | Excellent E&M Engineering Ltd.</title>
 
-<link rel="stylesheet" href="css/style.css">
+<meta name="description"
+content="香港電力及機電工程服務，包括高低壓配電系統、變壓器測試、保護繼電器測試及預防性維護。">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:"Microsoft JhengHei",Arial,sans-serif;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.65)
+    ),
+    url("images/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.container{
+
+    max-width:700px;
+
+    padding:40px;
+
+}
+
+.logo{
+
+    font-size:3rem;
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.subtitle{
+
+    font-size:1.2rem;
+
+    margin-bottom:40px;
+
+    opacity:.9;
+
+}
+
+.language-buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    min-width:180px;
+
+    padding:16px 32px;
+
+    border-radius:8px;
+
+    background:#0078d4;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#005ea6;
+
+    transform:translateY(-3px);
+
+}
+
+.footer{
+
+    position:fixed;
+
+    bottom:20px;
+
+    left:0;
+
+    width:100%;
+
+    text-align:center;
+
+    font-size:14px;
+
+    opacity:.8;
+
+}
+
+@media(max-width:768px){
+
+    .logo{
+        font-size:2rem;
+    }
+
+    .subtitle{
+        font-size:1rem;
+    }
+
+    .btn{
+        width:220px;
+    }
+
+}
+
+</style>
 
 </head>
 
 <body>
 
-<nav class="navbar">
+<div class="container">
 
-<div class="logo">
-卓越機電工程
-</div>
+    <div class="logo">
+        卓越機電工程有限公司
+    </div>
 
-<ul class="nav-menu">
+    <div class="subtitle">
+        Excellent E&M Engineering Ltd.
+    </div>
 
-<li><a href="#about">關於我們</a></li>
-<li><a href="#services">服務範圍</a></li>
-<li><a href="#projects">工程案例</a></li>
-<li><a href="#contact">聯絡我們</a></li>
+    <div class="subtitle">
+        高低壓配電系統｜變壓器測試｜保護繼電器測試｜預防性維護
+    </div>
 
-</ul>
+    <div class="language-buttons">
 
-</nav>
+        <a class="btn" href="zh/">
+            繁體中文
+        </a>
 
-<section class="hero">
+        <a class="btn" href="en/">
+            English
+        </a>
 
-<div>
-
-<h1>
-卓越機電工程有限公司
-</h1>
-
-<p>
-高低壓配電系統｜變壓器測試｜繼電器測試
-</p>
-
-<a href="#contact" class="btn">
-立即查詢
-</a>
+    </div>
 
 </div>
 
-</section>
-
-<section class="section" id="about">
-
-<h2 class="section-title">
-關於我們
-</h2>
-
-<p>
-我們專注於高低壓配電系統、變壓器測試、
-保護繼電器測試、預防性維護及調試服務，
-為香港商業及工業客戶提供可靠方案。
-</p>
-
-</section>
-
-<section class="section" id="services">
-
-<h2 class="section-title">
-服務範圍
-</h2>
-
-<div class="services">
-
-<div class="card">
-
-<img src="images/transformer.jpg">
-
-<div class="card-content">
-
-<h3>變壓器測試</h3>
-
-<p>
-TTR、IR、PI、WR、Tan Delta
-</p>
-
+<div class="footer">
+    © 2026 Excellent E&M Engineering Ltd.
 </div>
-
-</div>
-
-<div class="card">
-
-<img src="images/relay.jpg">
-
-<div class="card-content">
-
-<h3>保護繼電器測試</h3>
-
-<p>
-Relay Testing & Commissioning
-</p>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<img src="images/maintenance.jpg">
-
-<div class="card-content">
-
-<h3>預防性維護</h3>
-
-<p>
-年度設備保養及健康評估
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section" id="projects">
-
-<h2 class="section-title">
-
-工程案例
-
-</h2>
-
-<div class="projects">
-
-<div class="project">
-
-<img src="images/project1.jpg">
-
-<div class="project-content">
-
-<h3>商業大廈電力升級工程</h3>
-
-<p>
-11kV 配電系統更新
-</p>
-
-</div>
-
-</div>
-
-<div class="project">
-
-<img src="images/project2.jpg">
-
-<div class="project-content">
-
-<h3>變壓器更換工程</h3>
-
-<p>
-1500kVA Transformer Replacement
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section contact" id="contact">
-
-<h2>
-聯絡我們
-</h2>
-
-<p>📞 +852 9123 4567</p>
-
-<p>📧 info@yourcompany.com</p>
-
-<p>📍 香港觀塘區</p>
-
-<br>
-
-<a href="https://wa.me/85291234567"
-class="btn">
-
-WhatsApp 查詢
-
-</a>
-
-</section>
-
-<footer class="footer">
-
-© 2026 卓越機電工程有限公司
-
-</footer>
-
-<a
-class="whatsapp"
-href="https://wa.me/85291234567">
-
-WhatsApp
-
-</a>
 
 </body>
+
 </html>
